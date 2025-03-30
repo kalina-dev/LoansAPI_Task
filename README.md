@@ -1,0 +1,12 @@
+.NET 9, Dapper, Bogus, SQlite, SQL, Open API
+- two tables in Sqlite CreditRequests and Invoices were created, which have a 1-to-many relationship.
+- a nomenclature table CreditStatus was created;
+- the database and its tables are created every time when the application is initialized;
+- the tables are filled with dummy data every time anew; Faker Bogus is used for this purpose;
+- basic validations were applied when filling the data;
+- a minimal APIs approach was applied, because it is applicable to APIs that do not contain many endpoints in them;
+- a CORS approach is provided for the API, a global error handling is prepared, the API also uses https;
+- two endpoints requested in the assignment are implemented;
+- for completeness, basic CRUD operations are also applied to credits and invoices; they are not displayed as endpoints;
+- Dapper is used for data processing;
+- four unit tests are written to ensure the solution.
